@@ -1,2 +1,5 @@
 .idea/
 .venv/
+.env
+instance/
+.DS_Store
