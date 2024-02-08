@@ -2,5 +2,8 @@ flask
 flask-smorest
 python-dotenv
 marshmallow
+sqlalchemy
 flask-sqlalchemy
 types-Flask-SQLAlchemy
+flask-jwt-extended
+passlib
