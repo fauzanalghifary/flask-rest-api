@@ -2,11 +2,10 @@ flask
 flask-smorest
 python-dotenv
 marshmallow
-sqlalchemy
 flask-sqlalchemy
 types-Flask-SQLAlchemy
 flask-jwt-extended
 passlib
 flask-migrate
 gunicorn
-psycopg2-binary
+psycopg2-binary==2.9.5
