@@ -10,3 +10,7 @@ flask-migrate
 gunicorn
 psycopg2-binary==2.9.5
 sqlalchemy
+requests
+rq
+redis
+jinja2

@@ -17,6 +17,7 @@ docker build -t pojan-flask-rest-api .
 
 ```bash
 docker run -p 5000:5000 -w /app -v "$(pwd):/app" pojan-flask-rest-api sh -c "flask run --host 0.0.0.0"
+docker run -p 5000:5000 -w /app -v "$(pwd):/app" pojan-flask-rest-api
 ```
 
 ## How to locally install requirements.txt
@@ -42,3 +43,9 @@ flask db upgrade
 
 - https://dashboard.render.com/
 - https://api.elephantsql.com/
+
+### RQ
+
+```bash
+docker run -w /app pojan-flask-rest-api sh -c "rq worker -u rediss://red-cn2796ed3nmc739b30e0:X90qnilr54XeecGYkkBXyVX9SPXRvLTL@oregon-redis.render.com:6379 emails"
+```
