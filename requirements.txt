@@ -7,3 +7,4 @@ flask-sqlalchemy
 types-Flask-SQLAlchemy
 flask-jwt-extended
 passlib
+flask-migrate
