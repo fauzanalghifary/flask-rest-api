@@ -1,5 +1,17 @@
 # CONTRIBUTING
 
+## Library
+
+- flask
+- flask-smorest => Flask framework
+- flask-sqlalchemy => ORM
+- psycopg2 => DB PostgreSQL
+- flask-migrate => DB migration
+- flask-jwt-extended => Authentication
+- passlib => Authentication
+
+- python-dotenv => .env
+
 ## Virtual Env
 
 ```bash
