@@ -2,6 +2,8 @@
 
 ## Library
 
+- poetry => dependency management
+
 - flask
 - flask-smorest => Flask framework
 - flask-sqlalchemy => ORM
@@ -11,6 +13,9 @@
 - passlib => Authentication
 
 - python-dotenv => .env
+
+- DOCKER => Containerization
+- GUNICORN => WSGI HTTP Server
 
 ## Virtual Env
 
